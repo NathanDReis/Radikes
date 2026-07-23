@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git init *)",
+      "Bash(git branch *)",
+      "Bash(git add *)",
+      "Bash(git remote *)",
+      "Bash(git push *)",
+      "Bash(git config *)",
+      "Read(//home/reis/.ssh/**)",
+      "Read(//etc/**)",
+      "Read(//home/reis/**)",
+      "Read(//home/reis/.config/git/**)"
+    ]
+  }
+}
