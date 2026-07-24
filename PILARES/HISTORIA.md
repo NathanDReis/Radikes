@@ -30,15 +30,55 @@ O reino possui um manuscrito antigo na língua dos sábios, mas ninguém sabe se
 
 Faz cerca de 2000 anos que nenhum sábio foi visto no Reino dos Homens. Isso reforça, para o povo, a ideia de que a história é apenas mitologia — mas o fato de ninguém conseguir ler o livro, e de seu conhecimento poder ser extremamente útil, mantém viva a esperança de que ainda exista um sábio vivo em algum lugar.
 
-Um homem desse reino vive, em média, 80 anos. O personagem do jogador envelhece e morre nessa mesma faixa de idade, salvo se obtiver algo raro capaz de estender a vida — como a fonte de água antiga que concede mais 100 anos de vida, desbloqueada pelo caminho do conhecimento (ver "As Habilidades Extraordinárias"). Outros meios de prolongar a vida ainda podem ser definidos.
+Um homem desse reino vive, em média, 80 anos. O personagem do jogador envelhece e morre nessa mesma faixa de idade, salvo se obtiver algo raro capaz de estender a vida — como a fonte de água antiga que concede mais 100 anos de vida, desbloqueada pelo caminho do conhecimento (ver "As Habilidades Extraordinárias"). Esse efeito é único: beber da fonte novamente não tem efeito adicional. A única outra forma de viver muito além disso é tornar-se um sábio de fato (ver "A Língua dos Sábios").
 
 Mesmo quem não seguir o caminho do conhecimento deve ter alguma forma de viver por muito tempo e se aprimorar, embora certas decisões limitem o personagem a uma vida comum e mortal.
 
-Ao morrer, um dos filhos do personagem passa a ser o novo personagem controlável — o jogo continua através da linhagem da família.
+A sucessão ao morrer segue regras próprias — ver "Sucessão e Morte" adiante.
 
 O reino se chama Aurenor. É governado por um rei — atualmente Bjorn — e um Conselho dos Sábios. O atual "sábio mestre" desse conselho é, na prática, um homem comum — o mais velho da cidade —, já que o verdadeiro sábio do reino desapareceu há 2000 anos sem deixar sucessor, e para o povo isso é apenas mitologia.
 
+Aurenor não é o reino original do seu povo: seus antepassados eram súditos de um reino maior, destruído pelo mesmo evento que matou o sábio (ver "O Silêncio do Conselho dos Sábios"). Fugindo desse colapso, se refugiaram na região onde Aurenor existe hoje. Esse reino maior não era um dos povos antigos (ver "Religiões dos Povos") — era só outro reino humano comum —, mas explica por que Aurenor manteve a tradição de um Conselho dos Sábios mesmo sem descender de nenhum povo antigo.
+
 Conforme novos reinos forem descobertos pelo jogador, haverá futuramente um conselho entre os reis desses reinos.
+
+---
+
+# Sucessão e Morte
+
+Trocar de personagem só acontece por morte — nunca por vontade própria durante o jogo.
+
+## Sem herdeiro
+
+Se o personagem morrer sem filhos, a linhagem termina ali. O jogador começa um personagem novo, sem vínculo com o anterior — não herda posses, habilidades nem histórico da linhagem extinta.
+
+## Herdeiro ainda não jogável
+
+A idade mínima para um filho se tornar jogável é 12 anos — idade em que, no mundo medieval, já se pode trabalhar —, independente de ser menino ou menina.
+
+Se o personagem morrer e nenhum filho tiver atingido essa idade, o jogador assume temporariamente um parente próximo ou distante escolhido de forma aleatória (tio, irmão, primo, etc.). Esse personagem temporário:
+
+* administra o legado do falecido (propriedades, negócios, terras) sem desenvolver habilidades próprias;
+* participa da criação do herdeiro;
+* não pode morrer até o jogador ser transferido para o filho ou filha.
+
+Quando o primeiro filho elegível completa 12 anos, o jogador assume o controle dele automaticamente, sem poder escolher.
+
+## Múltiplos herdeiros
+
+* Se, no momento da morte, apenas um filho já tiver 12 anos ou mais, o jogador vai direto para esse filho — sem passar pelo personagem temporário e sem poder escolher.
+* Se nenhum filho for elegível no momento da morte, o jogador passa pelo personagem temporário e vai automaticamente para o primeiro filho que completar 12 anos, sem escolha.
+* A escolha entre irmãos só existe quando os dois já têm 12 anos ou mais no momento da morte do personagem.
+
+## Herança de habilidades
+
+O filho se desenvolve muito mais rápido na área em que o pai ou a mãe era especializado — não nasce já dominando a habilidade, mas evolui nela com velocidade bem maior que o normal.
+
+## Longevidade
+
+* A fonte de água antiga concede um bônus único de +100 anos de vida; bebê-la novamente não tem efeito adicional.
+* Tornar-se um sábio de fato concede longevidade extrema — a lenda de que os sábios "são milenares e não morrem" (ver "A Língua dos Sábios") é, de fato, verdadeira.
+* Fora essas duas exceções, nenhum personagem é imortal.
 
 ---
 
@@ -171,9 +211,11 @@ Assim como acontece com qualquer profissão do jogo, o domínio dessas habilidad
 
 A primeira habilidade extraordinária treinável é o caminho do conhecimento, ligado à língua dos sábios.
 
-Durante a exploração, um sábio antigo pode vir ao encontro do personagem — mas apenas se o jogador tomar uma determinada decisão no jogo. O jogador é livre para não seguir esse caminho: pode preferir se tornar um comerciante famoso, um guerreiro, ou qualquer outra coisa.
+Como o sábio de Aurenor morreu sem deixar sucessor (ver "O Silêncio do Conselho dos Sábios"), quem ensina o personagem é o sábio de outro reino — só possível porque os seres humanos têm a predisposição rara de aprender qualquer habilidade extraordinária, não só a do próprio povo (ver "Uma Habilidade por Reino"). Esse encontro só acontece durante a exploração, depois que o jogador descobre esse outro reino, e apenas se tomar uma determinada decisão no jogo. O jogador é livre para não seguir esse caminho: pode preferir se tornar um comerciante famoso, um guerreiro, ou qualquer outra coisa.
 
-Quem aceitar aprender com o sábio desbloqueia habilidades ligadas ao conhecimento, incluindo a existência de uma fonte de água antiga capaz de conceder mais 100 anos de vida.
+Quem aceitar aprender com o sábio desbloqueia habilidades ligadas ao conhecimento, incluindo a existência de uma fonte de água antiga capaz de conceder mais 100 anos de vida. Isso também reforça a exploração: descobrir o primeiro reino além de Aurenor já pode revelar um conhecimento antes escondido.
+
+Esse mesmo encontro revela ao personagem tanto a morte do sábio de Aurenor quanto a localização original do reino maior de onde os antepassados de Aurenor fugiram (ver "O Reino dos Homens"). Fica em aberto, como escolha do jogador, se ele vai querer viajar até lá, reconstruir o reino destruído ou apenas fortificar Aurenor.
 
 ## Outras Habilidades Extraordinárias
 
@@ -286,13 +328,55 @@ Isso permite que a mesma descoberta seja revisitada mais de uma vez, revelando c
 
 ---
 
+# O Silêncio do Conselho dos Sábios
+
+Ao transferir com sucesso o conhecimento a um sucessor, um sábio se retira para um lugar oculto e perfeito — sem dor, frio, fome ou dano —, ligado aos povos antigos. É por isso que nenhum sábio "morre" de fato: ele apenas se afasta do mundo comum depois de cumprir seu papel.
+
+Isso explica por que os sábios dos outros reinos nunca aparecem: não desapareceram, apenas passaram adiante o que sabiam e saíram de cena. Sábios têm longevidade extrema e não morrem de velhice, mas continuam podendo morrer por eventualidades — violência, guerra, acidentes. Foi isso que aconteceu com o sábio de Aurenor: morreu num evento do tipo guerra ou golpe antes de conseguir escolher um sucessor, o que impediu a sucessão normal e o deixou sem substituto por 2000 anos.
+
+Os sucessores escolhidos pelos sábios antigos continuam vivos, mas inativos: o antigo Conselho dos Sábios só funciona reunido, com representantes de todos os reinos ao mesmo tempo, orientando os reis em conjunto. Conforme os reinos antigos se separaram e perderam contato uns com os outros ao longo dos séculos, o conselho deixou de poder se reunir — e sozinho, cada sucessor não tem como retomar esse papel. Por isso vivem discretamente, misturados às próprias comunidades como anciãos comuns, guardando o conhecimento sem exercê-lo.
+
+Isso generaliza o que já é verdade em Aurenor — o "sábio mestre" do conselho local ser apenas um homem comum — para qualquer outro reino: em todos eles, o verdadeiro sábio (quando existe) está inativo e irreconhecível aos olhos do povo.
+
+O futuro conselho entre os reis, formado conforme o jogador descobre novos reinos (ver "O Reino dos Homens"), pode ser justamente o que falta para reunir os sábios de novo e reativar o antigo Conselho dos Sábios.
+
+## Sucessão: Um Posto Único por Reino
+
+Aprender a língua dos sábios é uma habilidade como qualquer outra do jogo: mais de um jogador pode receber a base de um sábio e evoluir por conta própria, praticando (ver "Progressão Individual em Multiplayer").
+
+Tornar-se sábio de fato — o posto em si, com o assento no conselho e a longevidade extrema — é único por reino: o sábio atual escolhe apenas um sucessor entre quem desenvolveu habilidade suficiente. Em uma partida com até 4 jogadores, apenas um deles pode ser escolhido como sucessor de um reino específico; os demais continuam podendo usar a língua normalmente, e podem buscar se tornar sucessores de outros reinos, cada um com sua própria habilidade extraordinária (ver "Uma Habilidade por Reino").
+
+## O Reino-Paraíso e o Mestre
+
+Ao escolher um sucessor e se retirar, o sábio não morre nem desaparece de fato: ele vai para o lugar oculto e perfeito descrito acima — que, na prática, é outro reino, com lógica e regras próprias, mais mágico que o mundo comum. Existe um caminho de volta, mesmo que o sábio que parte não saiba disso no momento em que vai.
+
+Esse reino funciona como um mundo livre à parte: lá, quem chega pode aperfeiçoar suas habilidades extraordinárias e criar novas, mais fortes que qualquer uma do mundo comum. É possível permanecer lá para sempre, se desenvolvendo indefinidamente.
+
+### Interação com os Outros Reinos
+
+Os cidadãos do reino-paraíso podem voar e visitar livremente todos os outros reinos, mas neles permanecem invisíveis e inaudíveis — atuam só como observadores.
+
+A única interferência permitida é sobre o clima local: fazer chover, nevar, parar de nevar onde já é frio e nevado, causar tempestades, ventanias, entre outras variações. Essa interferência precisa respeitar o clima possível de cada região — eles só podem escolher entre as opções de clima já compatíveis com aquele bioma/atmosfera (ver "Iluminação e Atmosfera por Região" em ARQUITETURA/), nunca impor um clima estranho ao local (nevar num deserto quente, por exemplo).
+
+O mestre é o grau de evolução mais alto do jogo — mais alto que qualquer outro caminho que o jogador possa escolher (profissões, habilidades extraordinárias comuns, ou mesmo permanecer sábio sem nunca voltar do paraíso). Para equilibrar isso, voltar não pode depender só da fase guiada: também é necessário coletar ou produzir um elixir raro (algo em torno de 100 ml) para beber antes de atravessar de volta. A raridade do elixir, ou o tempo necessário para produzi-lo, é o que torna essa volta difícil de fato, além da fase guiada em si.
+
+Se decidir voltar, precisa atravessar essa fase difícil — a única parte do jogo que será uma história guiada, com início, meio e fim definidos, até o retorno ao reino de origem.
+
+Ao voltar, ele não é mais um sábio comum: torna-se um **mestre**. O preço da jornada é perder a imortalidade. Em troca, ganha acesso ao conselho interno dos sábios e pode beber, com eles, de uma fonte própria desse conselho — diferente da fonte comum de +100 anos (bônus único, sem efeito ao repetir; ver "Sucessão e Morte") — quantas vezes quiser. Nessa fonte, porém, a sede volta com o tempo: conforme ela cresce, o mestre enfraquece até virar um homem comum, perdendo o acesso às habilidades trazidas do paraíso, e as recupera ao beber de novo.
+
+Enquanto a sede estiver saciada, o mestre não morre por eventualidades (violência, acidentes) nem por velhice, e fica imune a dano de forma incondicional. Só quando a sede o reduz por completo a um homem comum ele volta a ser mortal como qualquer um — sujeito tanto à velhice quanto a eventualidades — até beber de novo.
+
+Para equilibrar o jogo, o mestre não pode causar muito dano a ninguém: ele já acumula habilidades especiais além das extraordinárias comuns do mundo normal, as habilidades cotidianas de toda uma vida, vida eterna enquanto a sede estiver saciada e imunidade incondicional a dano nesse mesmo estado.
+
+---
+
 # Religiões dos Povos
 
 Cada povo antigo possui sua própria religião, mas no fundo todas contam a mesma história de origem — apenas com nomes e um elemento marcante diferentes entre si.
 
 A intenção é que o jogador, ao reunir relatos de povos distintos, perceba gradualmente que essas religiões aparentemente distintas convergem para uma mesma verdade oculta.
 
-A religião de Aurenor (padrão "Adão e Eva") segue esse mesmo formato, mas por coincidência — o reino não é descendente de nenhum povo antigo. Isso reforça o mistério: povos sem qualquer ligação entre si chegam à mesma verdade oculta por caminhos independentes.
+A religião de Aurenor (padrão "Adão e Eva") segue esse mesmo formato, mas por coincidência — o reino não é descendente de nenhum povo antigo, nem o reino maior do qual seu povo se refugiou (ver "O Reino dos Homens"). Isso reforça o mistério: povos sem qualquer ligação entre si chegam à mesma verdade oculta por caminhos independentes.
 
 ---
 
@@ -368,8 +452,9 @@ Itens ainda em aberto, a definir mais adiante:
 * Qual habilidade extraordinária (telecinese, velocidade, força, visão) pertence a qual reino, já que cada uma será descoberta conforme aquele reino for descoberto — falta apenas definir essa associação e a ordem, além dos próprios reinos.
 * A qual reino pertence cada tecnologia/item ainda não atribuído: teletransporte, mecanismos de força/visão/velocidade, controle de objetos à distância, luva da invisibilidade, capa anti-fome/frio e anel de regeneração.
 * Como os reinos irão interagir entre si.
-* Outros meios de prolongar a vida além da fonte de água do caminho do conhecimento (+100 anos).
 * Qual reino terá a quebra visual total (estilo cartoon/cel-shaded) e a justificativa narrativa para isso — ver "Um Reino Visualmente Diferente".
+* Qual foi exatamente o evento (guerra, golpe) que matou o sábio de Aurenor antes que ele escolhesse um sucessor, e se ele está ligado ao Grande Esquecimento (ver "O Silêncio do Conselho dos Sábios").
+* Qual reino ensina o caminho do conhecimento ao personagem (ver "A Primeira Habilidade: a Língua dos Sábios").
 
 ---
 
