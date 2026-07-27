@@ -18,7 +18,7 @@ Para cada povo/reino, preencher os campos abaixo. A arquitetura deve derivar do 
 - **Religião (elemento marcante e distinto):** origem segue o padrão "Adão e Eva" (mesma história de origem compartilhada entre os povos — ver "Religiões dos Povos" em HISTORIA.md), mas por coincidência: Aurenor não é descendente de nenhum povo antigo; práticas limitadas a orar, pregar e cantar no templo.
 - **Comidas comuns:** pão de trigo ou centeio (moinhos), mingaus e ensopados, vegetais resistentes ao frio (nabo, couve, cebola), carneiro, truta do rio, queijo, cerveja ou hidromel, carnes e vegetais em conserva.
 - **Padrão de nomes (personagens e lugares):** raiz nórdica/germânica antiga (como "Bjorn"). Pessoas: Edrin, Wulfric, Aldous, Freya, Isolde, Roswitha. Lugares com sufixos -ford, -holm, -wick, -mere, -fen (ex.: Reedmere, Fenwick, Aldford).
-- **Habilidade extraordinária dominada:** Conhecimento (língua dos sábios).
+- **Habilidade extraordinária dominada:** Conhecimento — não é um poder específico, e sim a capacidade de aprender as habilidades extraordinárias dos outros reinos, uma a uma, conforme cada reino é descoberto. O acesso à língua dos sábios (ver "Uma Habilidade por Reino" em HISTORIA.md) é a primeira dessas conquistas.
 - **Tecnologia antiga associada:** um mecanismo antigo de revelação de escrita oculta — funciona junto com a habilidade de línguas e códigos, ajudando a destacar inscrições ocultas que, sem a leitura já treinada, apareceriam apenas como código irreconhecível.
 - **Itens mágicos/mitológicos:** sim — a fonte de água que concede mais 100 anos de vida (ligada à habilidade do conhecimento); outros itens (luva da invisibilidade, capa anti-fome/frio, anel de regeneração, teletransporte) ainda não têm reino definido.
 

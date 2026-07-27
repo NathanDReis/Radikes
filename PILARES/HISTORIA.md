@@ -38,7 +38,7 @@ A sucessão ao morrer segue regras próprias — ver "Sucessão e Morte" adiante
 
 O reino se chama Aurenor. É governado por um rei — atualmente Bjorn — e um Conselho dos Sábios. O atual "sábio mestre" desse conselho é, na prática, um homem comum — o mais velho da cidade —, já que o verdadeiro sábio do reino desapareceu há 2000 anos sem deixar sucessor, e para o povo isso é apenas mitologia.
 
-Aurenor não é o reino original do seu povo: seus antepassados eram súditos de um reino maior, destruído pelo mesmo evento que matou o sábio (ver "O Silêncio do Conselho dos Sábios"). Fugindo desse colapso, se refugiaram na região onde Aurenor existe hoje. Esse reino maior não era um dos povos antigos (ver "Religiões dos Povos") — era só outro reino humano comum —, mas explica por que Aurenor manteve a tradição de um Conselho dos Sábios mesmo sem descender de nenhum povo antigo.
+Aurenor não é o reino original do seu povo: seus antepassados eram súditos de um reino maior, destruído pela guerra do Mestre Caído — o mesmo evento que matou o sábio daquele reino (ver "O Mestre Caído" em "O Grande Esquecimento" e "O Silêncio do Conselho dos Sábios"). Fugindo desse colapso, se refugiaram na região onde Aurenor existe hoje. Esse reino maior não era um dos povos antigos (ver "Religiões dos Povos") — era só outro reino humano comum —, mas explica por que Aurenor manteve a tradição de um Conselho dos Sábios mesmo sem descender de nenhum povo antigo.
 
 Conforme novos reinos forem descobertos pelo jogador, haverá futuramente um conselho entre os reis desses reinos.
 
@@ -160,15 +160,21 @@ A verdadeira causa desse desaparecimento será um dos maiores mistérios do jogo
 
 Esta seção registra a verdade completa por trás do Grande Esquecimento, como referência interna de design — ver "Revelação Gradual e Contraditória" logo abaixo para como (pouco a pouco, e nunca da mesma forma) ela chega ao jogador.
 
-Muito antes de existirem as regras atuais de retorno do reino-paraíso (elixir raro + fase guiada, ver "O Reino-Paraíso e o Mestre"), um mestre encontrou outro caminho de volta — sem pagar o preço que os mestres pagam hoje. Livre da sede que enfraquece e da perda da imortalidade, ele tentou dominar os 10 reinos, acumulando não só as habilidades trazidas do próprio paraíso, mas também habilidades extraordinárias de outros povos.
+O Mestre Caído era humano: um sábio do reino maior de onde vieram os antepassados de Aurenor (ver "O Reino dos Homens"), que se tornou mestre muito antes de existirem as regras atuais de retorno do reino-paraíso (elixir raro + fase guiada, ver "O Reino-Paraíso e o Mestre") — sem pagar o preço que os mestres pagam hoje. Livre da sede que enfraquece e da perda da imortalidade, e usando a predisposição humana de aprender qualquer habilidade extraordinária (ver "Uma Habilidade por Reino"), acumulou aos poucos poderes de outros povos e, anos depois, voltou para tentar dominar os 10 reinos.
 
-A guerra que isso desencadeou matou o sábio de Aurenor antes que pudesse escolher um sucessor (ver "O Silêncio do Conselho dos Sábios"), fraturou o antigo Conselho dos Sábios e forçou os povos sobreviventes a se isolar e esconder quem tinha afinidade para as habilidades extraordinárias — o motivo pelo qual elas se tornaram tão raras depois do Grande Esquecimento.
+A guerra que isso desencadeou destruiu o próprio reino maior que o viu nascer — o mesmo colapso que fez os antepassados de Aurenor fugirem e fundarem o reino atual — e matou o sábio daquele reino antes que pudesse escolher um sucessor (ver "O Silêncio do Conselho dos Sábios"). Fraturou também o antigo Conselho dos Sábios e forçou os povos sobreviventes a se isolar e esconder quem tinha afinidade para as habilidades extraordinárias — o motivo pelo qual elas se tornaram tão raras depois do Grande Esquecimento.
 
 Ele nunca foi derrotado por completo: apenas selado ou expulso, permanece uma ameaça latente até hoje.
 
 ## Revelação Gradual e Contraditória
 
 Essa história nunca é contada de uma vez, nem da mesma forma duas vezes (ver "A História Perdida"). Cada um dos 10 reinos guarda apenas uma versão parcial e distorcida dela — através de lendas contadas por NPCs (que podem se contradizer entre reinos, ou até dentro do mesmo reino), inscrições e ruínas na paisagem, e trechos incompletos nos livros dos sábios (ver "A Língua dos Sábios"). O próprio nome e a natureza do Mestre Caído podem variar de reino para reino — um pode lembrá-lo como tirano, outro como herói traído, outro talvez nem saiba que ele um dia foi um mestre. Cabe ao jogador reunir esses fragmentos, muitas vezes conflitantes, para reconstruir a verdade por conta própria.
+
+## O Povo Temido
+
+Nos outros 9 reinos corre uma lenda distorcida sobre um povo capaz de aprender qualquer habilidade extraordinária — deturpada pelo medo que o Mestre Caído deixou para trás. Poucos sabem que esse povo é humano, e quase ninguém sabe que ainda existe: a maioria acredita que desapareceu junto com o reino maior destruído na mesma guerra (ver "O Mestre Caído").
+
+A descoberta é recíproca. Assim como o jogador desconhece os outros reinos no início — para o povo de Aurenor, eles são só lenda (ver "O Reino dos Homens") —, cada um dos outros 9 reinos também desconhece que os humanos sobreviveram, até que o jogador os encontre. Esse primeiro contato carrega o peso da lenda: alguns povos podem reagir com medo, desconfiança ou hostilidade só por reconhecer o que aquele povo é, antes mesmo de conhecer o jogador como indivíduo.
 
 ---
 
@@ -369,7 +375,7 @@ Isso explica por que os sábios dos outros reinos nunca aparecem: não desaparec
 
 Os sucessores escolhidos pelos sábios antigos continuam vivos, mas inativos: o antigo Conselho dos Sábios só funciona reunido, com representantes de todos os reinos ao mesmo tempo, orientando os reis em conjunto. Conforme os reinos antigos se separaram e perderam contato uns com os outros ao longo dos séculos, o conselho deixou de poder se reunir — e sozinho, cada sucessor não tem como retomar esse papel. Por isso vivem discretamente, misturados às próprias comunidades como anciãos comuns, guardando o conhecimento sem exercê-lo.
 
-Isso generaliza o que já é verdade em Aurenor — o "sábio mestre" do conselho local ser apenas um homem comum — para qualquer outro reino: em todos eles, o verdadeiro sábio (quando existe) está inativo e irreconhecível aos olhos do povo.
+Isso generaliza o que já é verdade em Aurenor — o "sábio mestre" do conselho local ser apenas um homem comum — para qualquer outro reino: em todos os outros 9, o verdadeiro sábio existe, mas está inativo e irreconhecível aos olhos do povo — só em Aurenor o posto está de fato vago (ver "Sucessão: Um Posto Único por Reino" adiante).
 
 O antigo Conselho dos Sábios reúne representantes dos 10 reinos ao mesmo tempo; reativá-lo exige que todos os 10 tenham, simultaneamente, um sábio realmente ativo — não basta o sucessor existir inativo, como acontece hoje na maioria deles. Aurenor é o único caso em que o posto está de fato vago, sem sucessor algum (ver "Sucessão: Um Posto Único por Reino"), então preenchê-lo é o primeiro passo. O futuro conselho entre os reis, formado conforme o jogador descobre novos reinos (ver "O Reino dos Homens"), pode ser justamente o que falta para despertar os sucessores inativos dos outros 9 reinos.
 
