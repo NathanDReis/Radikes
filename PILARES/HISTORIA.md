@@ -156,6 +156,20 @@ Com o passar dos séculos, o restante da humanidade passou a acreditar que tudo 
 
 A verdadeira causa desse desaparecimento será um dos maiores mistérios do jogo e será revelada apenas conforme o jogador desvenda a história do mundo.
 
+## O Mestre Caído
+
+Esta seção registra a verdade completa por trás do Grande Esquecimento, como referência interna de design — ver "Revelação Gradual e Contraditória" logo abaixo para como (pouco a pouco, e nunca da mesma forma) ela chega ao jogador.
+
+Muito antes de existirem as regras atuais de retorno do reino-paraíso (elixir raro + fase guiada, ver "O Reino-Paraíso e o Mestre"), um mestre encontrou outro caminho de volta — sem pagar o preço que os mestres pagam hoje. Livre da sede que enfraquece e da perda da imortalidade, ele tentou dominar os 10 reinos, acumulando não só as habilidades trazidas do próprio paraíso, mas também habilidades extraordinárias de outros povos.
+
+A guerra que isso desencadeou matou o sábio de Aurenor antes que pudesse escolher um sucessor (ver "O Silêncio do Conselho dos Sábios"), fraturou o antigo Conselho dos Sábios e forçou os povos sobreviventes a se isolar e esconder quem tinha afinidade para as habilidades extraordinárias — o motivo pelo qual elas se tornaram tão raras depois do Grande Esquecimento.
+
+Ele nunca foi derrotado por completo: apenas selado ou expulso, permanece uma ameaça latente até hoje.
+
+## Revelação Gradual e Contraditória
+
+Essa história nunca é contada de uma vez, nem da mesma forma duas vezes (ver "A História Perdida"). Cada um dos 10 reinos guarda apenas uma versão parcial e distorcida dela — através de lendas contadas por NPCs (que podem se contradizer entre reinos, ou até dentro do mesmo reino), inscrições e ruínas na paisagem, e trechos incompletos nos livros dos sábios (ver "A Língua dos Sábios"). O próprio nome e a natureza do Mestre Caído podem variar de reino para reino — um pode lembrá-lo como tirano, outro como herói traído, outro talvez nem saiba que ele um dia foi um mestre. Cabe ao jogador reunir esses fragmentos, muitas vezes conflitantes, para reconstruir a verdade por conta própria.
+
 ---
 
 # Os Povos Perdidos
@@ -207,13 +221,15 @@ Quem a possui precisará:
 
 Assim como acontece com qualquer profissão do jogo, o domínio dessas habilidades depende principalmente da prática.
 
-## A Primeira Habilidade: a Língua dos Sábios (Conhecimento)
+## A Primeira Habilidade do Conhecimento: a Língua dos Sábios
 
-A primeira habilidade extraordinária treinável é o caminho do conhecimento, ligado à língua dos sábios.
+A primeira conquista do Conhecimento é o acesso à língua dos sábios e ao arco de evolução de sábio e mestre (ver "A Língua dos Sábios" e "O Reino-Paraíso e o Mestre") — um caminho universal, que não pertence a nenhum reino específico e existe, em tese, nos 10 reinos.
 
-Como o sábio de Aurenor morreu sem deixar sucessor (ver "O Silêncio do Conselho dos Sábios"), quem ensina o personagem é o sábio de outro reino — só possível porque os seres humanos têm a predisposição rara de aprender qualquer habilidade extraordinária, não só a do próprio povo (ver "Uma Habilidade por Reino"). Esse encontro só acontece durante a exploração, depois que o jogador descobre esse outro reino, e apenas se tomar uma determinada decisão no jogo. O jogador é livre para não seguir esse caminho: pode preferir se tornar um comerciante famoso, um guerreiro, ou qualquer outra coisa.
+Como o sábio de Aurenor morreu sem deixar sucessor (ver "O Silêncio do Conselho dos Sábios"), quem ensina a base da língua ao personagem é o sucessor inativo de outro reino — um ancião comum aos olhos de todos, que escolhe em segredo transmitir a base a essa única pessoa, sem que isso signifique exercer de fato o papel de sábio. Esse ensino só é possível porque os seres humanos têm a predisposição rara de aprender qualquer habilidade extraordinária, não só a do próprio povo (ver "Uma Habilidade por Reino"). Esse encontro só acontece durante a exploração, depois que o jogador descobre esse outro reino, e apenas se tomar uma determinada decisão no jogo. O jogador é livre para não seguir esse caminho: pode preferir se tornar um comerciante famoso, um guerreiro, ou qualquer outra coisa.
 
-Quem aceitar aprender com o sábio desbloqueia habilidades ligadas ao conhecimento, incluindo a existência de uma fonte de água antiga capaz de conceder mais 100 anos de vida. Isso também reforça a exploração: descobrir o primeiro reino além de Aurenor já pode revelar um conhecimento antes escondido.
+Aprender a base com o sucessor de outro reino não faz do personagem sucessor daquele reino: a partir daí, ele se desenvolve por conta própria como sábio de Aurenor, preenchendo um posto que, diferente dos demais reinos, está genuinamente vago — sem ninguém para escolhê-lo (ver "Sucessão: Um Posto Único por Reino").
+
+Quem aceitar aprender desbloqueia habilidades ligadas a esse caminho, incluindo a existência de uma fonte de água antiga capaz de conceder mais 100 anos de vida. Isso também reforça a exploração: descobrir o primeiro reino além de Aurenor já pode revelar um conhecimento antes escondido.
 
 Esse mesmo encontro revela ao personagem tanto a morte do sábio de Aurenor quanto a localização original do reino maior de onde os antepassados de Aurenor fugiram (ver "O Reino dos Homens"). Fica em aberto, como escolha do jogador, se ele vai querer viajar até lá, reconstruir o reino destruído ou apenas fortificar Aurenor.
 
@@ -225,6 +241,13 @@ Além do conhecimento, outras habilidades extraordinárias poderão ser desenvol
 * **Velocidade** — aumenta consideravelmente a velocidade de corrida do personagem; a força de um golpe aumenta se ele estiver correndo no momento do impacto, pela inércia e energia acumuladas.
 * **Força** — aumenta consideravelmente a força física do personagem.
 * **Visão** — permite enxergar muito mais longe do que o normal.
+* **Tempo** — em nível básico, retrocede alguns minutos o estado de NPCs, animais, plantas e clima ao redor; em um nível de evolução mais avançado, passa a poder pausá-los por alguns minutos em vez de apenas retroceder. Não afeta construções, itens já criados ou coletados, nem mortes de personagens — o mundo material e as marcas deixadas pelos jogadores (ver "Construção" em FILOSOFIA.md) permanecem intactos; apenas o comportamento de NPCs, criaturas, vegetação e clima é revertido ou congelado. Ver "O Domínio do Tempo em Multiplayer" abaixo para como o efeito se comporta em uma partida cooperativa.
+* **Sentidos Aguçados** — audição, olfato e percepção de vibrações muito acima do normal; permite se orientar e detectar perigos mesmo no escuro absoluto ou embaixo da terra. Ligada a um reino subterrâneo de mineradores.
+* **Domínio da Terra** — sentir tremores e vibrações através do solo, moldar pedra e terra. Ligada a um reino de agricultores.
+* **Domínio da Água** — mover e controlar água, respirar debaixo d'água, nadar em velocidade muito acima do normal. Ligada a um reino de comerciantes marítimos, com transporte por navios.
+* **Domínio do Fogo** — criar e controlar chamas, resistência ao calor extremo. Ligada a um reino de metalurgistas.
+
+Essas quatro últimas são apenas a especialização extraordinária de cada um desses reinos — assim como os demais povos, eles também terão suas profissões comuns (comércio, culinária, soldados etc.), iguais em essência às de qualquer outro reino, com peculiaridades de ferramentas e costumes (ver Especialização Regional em FILOSOFIA.md).
 
 Como e quando o jogador descobre e desbloqueia cada uma dessas habilidades ao longo da linha temporal do jogo ainda será definido.
 
@@ -232,15 +255,25 @@ Como e quando o jogador descobre e desbloqueia cada uma dessas habilidades ao lo
 
 Cada habilidade extraordinária e cada tecnologia antiga está associada a um reino diferente, e é descoberta conforme o jogador descobre aquele reino.
 
-Cada povo domina apenas a sua própria habilidade extraordinária — não é capaz de aprender as demais. O Reino dos Homens, por exemplo, domina o conhecimento (a língua dos sábios).
+Cada povo domina apenas a sua própria habilidade extraordinária — não é capaz de aprender as demais, com uma única exceção: os seres humanos do Reino dos Homens (Aurenor). A habilidade extraordinária deles, o Conhecimento, não é um poder específico como telecinese ou força — é a própria capacidade de aprender as habilidades extraordinárias dos outros reinos, uma a uma, conforme cada reino é descoberto (ver "Habilidades Raras" em FILOSOFIA.md). Nenhum outro povo consegue fazer isso: cada um está preso à sua própria habilidade. É por isso que os seres humanos parecem mais frágeis e primitivos diante da tecnologia e dos poderes dos outros povos — mas, se desenvolvidos em várias dessas habilidades, tornam-se potencialmente mais fortes que qualquer um deles.
 
-Os seres humanos são a exceção: alguns indivíduos nascem com a predisposição rara de aprender todas as habilidades extraordinárias, não apenas a do próprio povo (ver "Habilidades Raras" em FILOSOFIA.md).
+O acesso à língua dos sábios e ao arco de evolução de sábio e mestre (ver "A Língua dos Sábios" e "O Reino-Paraíso e o Mestre") é a primeira dessas conquistas do Conhecimento — mas, diferente das demais, não pertence a nenhum reino específico: qualquer um dos 10 reinos tem seu próprio sábio, e o antigo Conselho dos Sábios só se reativa quando todos os 10 tiverem, ao mesmo tempo, um sábio realmente ativo (ver "O Silêncio do Conselho dos Sábios").
 
 ## Progressão Individual em Multiplayer
 
 Em uma partida cooperativa (até 4 jogadores), a progressão de cada personagem é individual — profissões, habilidades e a tradução da língua dos sábios pertencem a quem as desenvolveu, nunca ao grupo como um todo.
 
 Isso funciona como a Economia Viva (FILOSOFIA.md) aplicada ao conhecimento: um soldado pode proteger os outros, um minerador pode minerar para todos, mas apenas quem seguir o caminho do conhecimento consegue ler os manuscritos dos sábios. Esse jogador pode guiar o grupo até reinos e conhecimentos escondidos, mas somente ele desenvolverá as habilidades extraordinárias posteriores que dependem dessa leitura.
+
+## O Domínio do Tempo em Multiplayer
+
+A habilidade de Tempo é uma exceção à regra acima: seu efeito não fica restrito a quem a desenvolveu.
+
+Apenas o jogador que desenvolveu a habilidade a controla — só ele decide quando ativá-la e se retrocede ou pausa o tempo. Mas, ao ser ativada em uma partida cooperativa (até 4 jogadores), o efeito alcança todos os jogadores que estiverem online naquele momento, não apenas quem a controla.
+
+Os demais jogadores, porém, não são paralisados nem retrocedidos junto: seus personagens continuam sob controle total deles — movimento, ações, inventário —, enquanto apenas o mundo ao redor (NPCs, animais, plantas, clima) retrocede ou congela. Isso cria uma janela tática cooperativa: enquanto o mundo está pausado ou acabou de voltar no tempo, os outros jogadores podem agir livremente — reposicionar-se, fugir, preparar uma emboscada, terminar uma colheita antes que uma criatura hostil "retome" a percepção de sua presença, e assim por diante.
+
+Assim como as demais habilidades extraordinárias, o Domínio do Tempo pertence a um único reino, ainda não definido (ver "Uma Habilidade por Reino" e "Pendências").
 
 ---
 
@@ -332,13 +365,15 @@ Isso permite que a mesma descoberta seja revisitada mais de uma vez, revelando c
 
 Ao transferir com sucesso o conhecimento a um sucessor, um sábio se retira para um lugar oculto e perfeito — sem dor, frio, fome ou dano —, ligado aos povos antigos. É por isso que nenhum sábio "morre" de fato: ele apenas se afasta do mundo comum depois de cumprir seu papel.
 
-Isso explica por que os sábios dos outros reinos nunca aparecem: não desapareceram, apenas passaram adiante o que sabiam e saíram de cena. Sábios têm longevidade extrema e não morrem de velhice, mas continuam podendo morrer por eventualidades — violência, guerra, acidentes. Foi isso que aconteceu com o sábio de Aurenor: morreu num evento do tipo guerra ou golpe antes de conseguir escolher um sucessor, o que impediu a sucessão normal e o deixou sem substituto por 2000 anos.
+Isso explica por que os sábios dos outros reinos nunca aparecem: não desapareceram, apenas passaram adiante o que sabiam e saíram de cena. Sábios têm longevidade extrema e não morrem de velhice, mas continuam podendo morrer por eventualidades — violência, guerra, acidentes. Foi isso que aconteceu com o sábio de Aurenor: morreu na guerra desencadeada pelo Mestre Caído (ver "O Mestre Caído" em "O Grande Esquecimento"), antes de conseguir escolher um sucessor, o que impediu a sucessão normal e o deixou sem substituto por 2000 anos.
 
 Os sucessores escolhidos pelos sábios antigos continuam vivos, mas inativos: o antigo Conselho dos Sábios só funciona reunido, com representantes de todos os reinos ao mesmo tempo, orientando os reis em conjunto. Conforme os reinos antigos se separaram e perderam contato uns com os outros ao longo dos séculos, o conselho deixou de poder se reunir — e sozinho, cada sucessor não tem como retomar esse papel. Por isso vivem discretamente, misturados às próprias comunidades como anciãos comuns, guardando o conhecimento sem exercê-lo.
 
 Isso generaliza o que já é verdade em Aurenor — o "sábio mestre" do conselho local ser apenas um homem comum — para qualquer outro reino: em todos eles, o verdadeiro sábio (quando existe) está inativo e irreconhecível aos olhos do povo.
 
-O futuro conselho entre os reis, formado conforme o jogador descobre novos reinos (ver "O Reino dos Homens"), pode ser justamente o que falta para reunir os sábios de novo e reativar o antigo Conselho dos Sábios.
+O antigo Conselho dos Sábios reúne representantes dos 10 reinos ao mesmo tempo; reativá-lo exige que todos os 10 tenham, simultaneamente, um sábio realmente ativo — não basta o sucessor existir inativo, como acontece hoje na maioria deles. Aurenor é o único caso em que o posto está de fato vago, sem sucessor algum (ver "Sucessão: Um Posto Único por Reino"), então preenchê-lo é o primeiro passo. O futuro conselho entre os reis, formado conforme o jogador descobre novos reinos (ver "O Reino dos Homens"), pode ser justamente o que falta para despertar os sucessores inativos dos outros 9 reinos.
+
+Isso, porém, não basta sozinho: os sucessores permanecem inativos também por medo do Mestre Caído (ver "O Mestre Caído" em "O Grande Esquecimento"), nunca derrotado por completo. Ao descobrir o 10º reino, se o jogador quiser unificar os reinos e reativar o antigo Conselho dos Sábios, terá que enfrentá-lo e derrotá-lo — a etapa final que falta, além de despertar os 9 sucessores. Isso nunca é obrigatório: segue o mesmo princípio de que o presente e o futuro do personagem são escolha do jogador (ver "Princípios de Design").
 
 ## Sucessão: Um Posto Único por Reino
 
@@ -346,11 +381,21 @@ Aprender a língua dos sábios é uma habilidade como qualquer outra do jogo: ma
 
 Tornar-se sábio de fato — o posto em si, com o assento no conselho e a longevidade extrema — é único por reino: o sábio atual escolhe apenas um sucessor entre quem desenvolveu habilidade suficiente. Em uma partida com até 4 jogadores, apenas um deles pode ser escolhido como sucessor de um reino específico; os demais continuam podendo usar a língua normalmente, e podem buscar se tornar sucessores de outros reinos, cada um com sua própria habilidade extraordinária (ver "Uma Habilidade por Reino").
 
+Aurenor é uma exceção a essa regra de escolha: como seu sábio morreu antes de conseguir escolher um sucessor (ver "O Silêncio do Conselho dos Sábios"), não existe hoje ninguém com autoridade para nomear um substituto. Quem desenvolver habilidade suficiente na língua dos sábios torna-se o novo sábio de Aurenor por mérito próprio, preenchendo o posto vago — não por escolha de um sábio anterior, como acontece nos demais reinos.
+
 ## O Reino-Paraíso e o Mestre
 
 Ao escolher um sucessor e se retirar, o sábio não morre nem desaparece de fato: ele vai para o lugar oculto e perfeito descrito acima — que, na prática, é outro reino, com lógica e regras próprias, mais mágico que o mundo comum. Existe um caminho de volta, mesmo que o sábio que parte não saiba disso no momento em que vai.
 
 Esse reino funciona como um mundo livre à parte: lá, quem chega pode aperfeiçoar suas habilidades extraordinárias e criar novas, mais fortes que qualquer uma do mundo comum. É possível permanecer lá para sempre, se desenvolvendo indefinidamente.
+
+### Novas Habilidades Desenvolvidas no Paraíso
+
+Além de aperfeiçoar o que já foi aprendido no mundo comum, quem chega ao reino-paraíso pode desenvolver habilidades inteiramente novas, exclusivas de lá — não são acessíveis a quem nunca chegou até esse lugar:
+
+* **Compreensão Universal** — entender e falar qualquer língua viva instantaneamente, mesmo de povos ainda não descobertos. Diferente da Língua dos Sábios, que decodifica apenas o idioma antigo e morto dos manuscritos.
+* **Memória Absoluta** — retenção perfeita de tudo que lê, ouve ou vê; permite reconstruir mentalmente trechos de manuscritos danificados ou perdidos, ou revisitar um conhecimento adquirido há muito tempo.
+* **Sussurro Persuasivo** — influência mental sutil pela palavra; acalma um animal ou pessoa hostil, ou convence alguém que já esteja disposto a ouvir. Não é controle mental pleno.
 
 ### Interação com os Outros Reinos
 
@@ -362,7 +407,7 @@ O mestre é o grau de evolução mais alto do jogo — mais alto que qualquer ou
 
 Se decidir voltar, precisa atravessar essa fase difícil — a única parte do jogo que será uma história guiada, com início, meio e fim definidos, até o retorno ao reino de origem.
 
-Ao voltar, ele não é mais um sábio comum: torna-se um **mestre**. O preço da jornada é perder a imortalidade. Em troca, ganha acesso ao conselho interno dos sábios e pode beber, com eles, de uma fonte própria desse conselho — diferente da fonte comum de +100 anos (bônus único, sem efeito ao repetir; ver "Sucessão e Morte") — quantas vezes quiser. Nessa fonte, porém, a sede volta com o tempo: conforme ela cresce, o mestre enfraquece até virar um homem comum, perdendo o acesso às habilidades trazidas do paraíso, e as recupera ao beber de novo.
+Ao voltar, ele não é mais um sábio comum: torna-se um **mestre**. O preço da jornada é perder a imortalidade. Em troca, ganha acesso ao conselho interno dos sábios e pode beber, com eles, de uma fonte própria desse conselho — diferente da fonte comum de +100 anos (bônus único, sem efeito ao repetir; ver "Sucessão e Morte") — quantas vezes quiser. Nessa fonte, porém, a sede volta com o tempo: conforme ela cresce, o mestre enfraquece até virar um homem comum, perdendo o acesso às habilidades trazidas do paraíso, e as recupera ao beber de novo. A sede não cresce só com o tempo: usar algumas das habilidades mais fortes trazidas do paraíso — como Sussurro Persuasivo e Memória Absoluta — acelera esse crescimento, aproximando o mestre de virar um homem comum mais rápido do que se apenas esperasse.
 
 Enquanto a sede estiver saciada, o mestre não morre por eventualidades (violência, acidentes) nem por velhice, e fica imune a dano de forma incondicional. Só quando a sede o reduz por completo a um homem comum ele volta a ser mortal como qualquer um — sujeito tanto à velhice quanto a eventualidades — até beber de novo.
 
@@ -449,12 +494,11 @@ Este pilar seguirá alguns princípios fundamentais:
 
 Itens ainda em aberto, a definir mais adiante:
 
-* Qual habilidade extraordinária (telecinese, velocidade, força, visão) pertence a qual reino, já que cada uma será descoberta conforme aquele reino for descoberto — falta apenas definir essa associação e a ordem, além dos próprios reinos.
+* As 10 habilidades extraordinárias já estão nomeadas: Conhecimento (Aurenor), telecinese, velocidade, força, visão, tempo, sentidos aguçados (mineração/subterrâneo), domínio da terra (agricultura), domínio da água (comércio marítimo) e domínio do fogo (metalurgia). Falta nomear e detalhar em POVOS.md os 9 reinos ainda não criados, além de definir a ordem de descoberta de cada um.
 * A qual reino pertence cada tecnologia/item ainda não atribuído: teletransporte, mecanismos de força/visão/velocidade, controle de objetos à distância, luva da invisibilidade, capa anti-fome/frio e anel de regeneração.
 * Como os reinos irão interagir entre si.
 * Qual reino terá a quebra visual total (estilo cartoon/cel-shaded) e a justificativa narrativa para isso — ver "Um Reino Visualmente Diferente".
-* Qual foi exatamente o evento (guerra, golpe) que matou o sábio de Aurenor antes que ele escolhesse um sucessor, e se ele está ligado ao Grande Esquecimento (ver "O Silêncio do Conselho dos Sábios").
-* Qual reino ensina o caminho do conhecimento ao personagem (ver "A Primeira Habilidade: a Língua dos Sábios").
+* Qual reino ensina o caminho do conhecimento ao personagem (ver "A Primeira Habilidade do Conhecimento: a Língua dos Sábios").
 
 ---
 
