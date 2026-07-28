@@ -1,6 +1,6 @@
 # Povos (a preencher)
 
-Para cada povo/reino, preencher os campos abaixo. A arquitetura deve derivar do bioma, fauna, flora, tecnologia, clima e sensação desejada; as características físicas e habilidades devem definir a especialização (ver [Especialização Regional](FILOSOFIA.md#especialização-regional) no FILOSOFIA.md). Detalhes de luz/atmosfera ficam em [ILUMINACAO_HISTORIA.md](../ARQUITETURA/ILUMINACAO_HISTORIA.md). Cada reino domina apenas uma habilidade extraordinária, tem sua própria tecnologia antiga associada, e pode ou não possuir itens mágicos/mitológicos (ver "Uma Habilidade por Reino" e "Os Artefatos Antigos" em HISTORIA.md).
+Para cada povo/reino, preencher os campos abaixo. A arquitetura deve derivar do bioma, fauna, flora, tecnologia, clima e sensação desejada; as características físicas e habilidades devem definir a especialização (ver [Especialização Regional](FILOSOFIA.md#especialização-regional) no FILOSOFIA.md). Detalhes de luz/atmosfera ficam em [ILUMINACAO_HISTORIA.md](../ARQUITETURA/ILUMINACAO_HISTORIA.md). Cada reino domina apenas uma habilidade extraordinária, tem sua própria tecnologia antiga associada, e pode ou não possuir itens mágicos/mitológicos (ver "Uma Habilidade por Reino" e "Os Artefatos Antigos" em HISTORIA.md). Cada habilidade evolui em nível básico e avançado pela prática (ver "Evolução das Habilidades Extraordinárias" em HISTORIA.md), exceto o Conhecimento de Aurenor, que segue seu próprio arco. Para os outros 9 reinos, definir também a reação inicial ao descobrir que os seres humanos existem (ver "O Povo Temido" em HISTORIA.md).
 
 ## Reino dos Homens (Aurenor)
 
@@ -19,6 +19,7 @@ Para cada povo/reino, preencher os campos abaixo. A arquitetura deve derivar do 
 - **Comidas comuns:** pão de trigo ou centeio (moinhos), mingaus e ensopados, vegetais resistentes ao frio (nabo, couve, cebola), carneiro, truta do rio, queijo, cerveja ou hidromel, carnes e vegetais em conserva.
 - **Padrão de nomes (personagens e lugares):** raiz nórdica/germânica antiga (como "Bjorn"). Pessoas: Edrin, Wulfric, Aldous, Freya, Isolde, Roswitha. Lugares com sufixos -ford, -holm, -wick, -mere, -fen (ex.: Reedmere, Fenwick, Aldford).
 - **Habilidade extraordinária dominada:** Conhecimento — não é um poder específico, e sim a capacidade de aprender as habilidades extraordinárias dos outros reinos, uma a uma, conforme cada reino é descoberto. O acesso à língua dos sábios (ver "Uma Habilidade por Reino" em HISTORIA.md) é a primeira dessas conquistas.
+- **Evolução da habilidade:** não segue o modelo básico/avançado dos outros reinos — segue o arco próprio do sábio e do mestre, guiado por marcos da história (ver "Evolução das Habilidades Extraordinárias" e "O Reino-Paraíso e o Mestre" em HISTORIA.md).
 - **Tecnologia antiga associada:** um mecanismo antigo de revelação de escrita oculta — funciona junto com a habilidade de línguas e códigos, ajudando a destacar inscrições ocultas que, sem a leitura já treinada, apareceriam apenas como código irreconhecível.
 - **Itens mágicos/mitológicos:** sim — a fonte de água que concede mais 100 anos de vida (ligada à habilidade do conhecimento); outros itens (luva da invisibilidade, capa anti-fome/frio, anel de regeneração, teletransporte) ainda não têm reino definido.
 
@@ -45,6 +46,8 @@ Para cada povo/reino, preencher os campos abaixo. A arquitetura deve derivar do 
 - **Comidas comuns:**
 - **Padrão de nomes (personagens e lugares):**
 - **Habilidade extraordinária dominada:**
+- **Evolução da habilidade (básico → avançado):**
+- **Reação ao descobrir os seres humanos:** (ver "Como Cada Reino Recebe os Humanos" em HISTORIA.md)
 - **Tecnologia antiga associada:**
 - **Itens mágicos/mitológicos:**
 

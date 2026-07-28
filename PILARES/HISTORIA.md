@@ -176,6 +176,18 @@ Nos outros 9 reinos corre uma lenda distorcida sobre um povo capaz de aprender q
 
 A descoberta é recíproca. Assim como o jogador desconhece os outros reinos no início — para o povo de Aurenor, eles são só lenda (ver "O Reino dos Homens") —, cada um dos outros 9 reinos também desconhece que os humanos sobreviveram, até que o jogador os encontre. Esse primeiro contato carrega o peso da lenda: alguns povos podem reagir com medo, desconfiança ou hostilidade só por reconhecer o que aquele povo é, antes mesmo de conhecer o jogador como indivíduo.
 
+### Como Cada Reino Recebe os Humanos
+
+Essa reação inicial não precisa ser igual em todos os 9 reinos — varia com a cultura e a história de cada povo. Alguns pontos de partida possíveis, a escolher (ou combinar) reino a reino em POVOS.md:
+
+* medo ou hostilidade direta, por reconhecer a lenda do Mestre Caído;
+* desconfiança cautelosa, mantendo distância até o jogador provar suas intenções;
+* curiosidade ou fascínio, tratando o encontro como uma descoberta histórica rara;
+* indiferença, por não relacionar a lenda antiga a um povo real e vivo;
+* reverência ou temor supersticioso, tratando o jogador quase como um presságio.
+
+Essa reação inicial é só o ponto de partida — como o relacionamento evolui depois (comércio, conflito, aliança) segue em aberto (ver "Como os reinos irão interagir entre si" em Pendências).
+
 ---
 
 # Os Povos Perdidos
@@ -226,6 +238,17 @@ Quem a possui precisará:
 * aperfeiçoar suas capacidades durante muitos anos.
 
 Assim como acontece com qualquer profissão do jogo, o domínio dessas habilidades depende principalmente da prática.
+
+## Evolução das Habilidades Extraordinárias
+
+O Conhecimento segue seu próprio arco de evolução, todo ele guiado por marcos da história em vez de só prática (ver "A Primeira Habilidade do Conhecimento" e "O Reino-Paraíso e o Mestre" adiante).
+
+As outras 9 habilidades — cada uma o poder único de um reino — evoluem em dois níveis pela prática, como qualquer habilidade do jogo:
+
+* **Nível Básico** — a manifestação inicial, desbloqueada assim que o personagem descobre a própria afinidade e começa a treinar. É o que está descrito para cada uma em "Outras Habilidades Extraordinárias" logo abaixo.
+* **Nível Avançado** — desbloqueado só depois de muita prática. É uma mudança qualitativa, não apenas uma versão mais forte do nível básico — a exemplo do Tempo, que vai de retroceder (básico) a pausar (avançado).
+
+O que exatamente cada nível avançado faz, fora o Tempo (já definido), ainda será decidido reino a reino, conforme cada um for detalhado em POVOS.md.
 
 ## A Primeira Habilidade do Conhecimento: a Língua dos Sábios
 
