@@ -1,6 +1,6 @@
-# Pilar 2 — Mundo Vivo e Evolução Livre (Simples)
+# Pilar 2 — Mundo Vivo e Evolução Livre
 
-Adaptação de [FILOSOFIA.md](../../PILARES/FILOSOFIA.md) original. O conteúdo é quase todo independente de engine — o que muda é só a técnica de implementação, indicada em notas **(Simples:)** ao longo do texto.
+Notas de implementação técnica aparecem marcadas como **(Implementação:)** ao longo do texto.
 
 ## Filosofia
 
@@ -43,11 +43,11 @@ Quanto maior a experiência em determinada atividade:
 
 O jogador nunca perde a liberdade de aprender outra profissão.
 
-**(Simples:)** cada profissão é um contador de experiência (Resource do Godot: `id`, `xp`, `nível`) com uma tabela de limiares. Sem árvore de talentos complexa — cada nível só destrava um bônus numérico ou uma receita nova.
+**(Implementação:)** cada profissão é um contador de experiência (Resource do Godot: `id`, `xp`, `nível`) com uma tabela de limiares. Sem árvore de talentos complexa — cada nível só destrava um bônus numérico ou uma receita nova.
 
 ## Profissões
 
-As mesmas do original: Agricultura, Pecuária, Mineração, Marcenaria, Carpintaria, Ferraria, Construção Civil, Cozinha, Caça, Pesca, Comércio, Medicina, Alquimia (mais tarde), Navegação (caso exista), Soldado, Guarda, Explorador.
+Agricultura, Pecuária, Mineração, Marcenaria, Carpintaria, Ferraria, Construção Civil, Cozinha, Caça, Pesca, Comércio, Medicina, Alquimia (mais tarde), Navegação (caso exista), Soldado, Guarda, Explorador.
 
 Novas profissões poderão surgir durante o desenvolvimento.
 
@@ -68,7 +68,7 @@ Madeira → Marcenaria → Tábuas → Construção → Casas
 Mineração → Minério → Ferraria → Ferramentas → Todas as outras profissões
 ```
 
-**(Simples:)** sem simulação de oferta/demanda em tempo real entre NPCs. Preços de compra/venda em cada mapa são valores fixos por reino (lidos de uma tabela), ajustados manualmente conforme a especialização daquele reino — quem quiser adicionar oferta/demanda dinâmica depois, adiciona sem quebrar essa base (mesmo princípio de evolução progressiva do original).
+**(Implementação:)** sem simulação de oferta/demanda em tempo real entre NPCs. Preços de compra/venda em cada mapa são valores fixos por reino (lidos de uma tabela), ajustados manualmente conforme a especialização daquele reino — oferta/demanda dinâmica pode ser adicionada depois, progressivamente, sem quebrar essa base.
 
 ## Mercado
 
@@ -78,7 +78,7 @@ Todo bem produzido pode ser comercializado: madeira, pedra, alimentos, ferrament
 
 Os jogadores podem modificar permanentemente o mundo: casas, oficinas, fazendas, minas, mercados e, depois, vilas, fortalezas, cidades, portos, castelos.
 
-**(Simples:)** construção em grade (tile-based) em vez de posicionamento livre em 3D — mais rápido de implementar, mais fácil de sincronizar em multiplayer, e ainda transmite a sensação de marca permanente no mundo.
+**(Implementação:)** construção em grade (tile-based) — rápida de implementar, fácil de sincronizar em multiplayer, e ainda transmite a sensação de marca permanente no mundo.
 
 ## Organização Social
 
@@ -88,7 +88,7 @@ Jogadores podem formar organizações: famílias, grupos, companhias, clãs, gui
 
 O mundo incentiva constantemente a exploração. Novas regiões revelam plantas desconhecidas, animais únicos, minérios raros, ruínas, cavernas, construções antigas, tecnologias perdidas.
 
-**(Simples:)** como cada reino é uma cena fechada (não um mundo contínuo), a exploração acontece dentro do mapa daquele reino — névoa de guerra, áreas trancadas até certa condição, e sub-áreas (cavernas, ruínas) como cenas conectadas por uma porta/entrada.
+**(Implementação:)** como cada reino é uma cena fechada, a exploração acontece dentro do mapa daquele reino — névoa de guerra, áreas trancadas até certa condição, e sub-áreas (cavernas, ruínas) como cenas conectadas por uma porta/entrada.
 
 ## O Mistério do Mundo
 

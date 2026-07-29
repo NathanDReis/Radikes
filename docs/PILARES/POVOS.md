@@ -1,16 +1,16 @@
 # Povos (a preencher)
 
-Para cada povo/reino, preencher os campos abaixo. A arquitetura deve derivar do bioma, fauna, flora, tecnologia, clima e sensação desejada; as características físicas e habilidades devem definir a especialização (ver [Especialização Regional](FILOSOFIA.md#especialização-regional) no FILOSOFIA.md). Detalhes de luz/atmosfera ficam em [ILUMINACAO_HISTORIA.md](../ARQUITETURA/ILUMINACAO_HISTORIA.md). Cada reino domina apenas uma habilidade extraordinária, tem sua própria tecnologia antiga associada, e pode ou não possuir itens mágicos/mitológicos (ver "Uma Habilidade por Reino" e "Os Artefatos Antigos" em HISTORIA.md). Cada habilidade evolui em nível básico e avançado pela prática (ver "Evolução das Habilidades Extraordinárias" em HISTORIA.md), exceto o Conhecimento de Aurenor, que segue seu próprio arco. Para os outros 9 reinos, definir também a reação inicial ao descobrir que os seres humanos existem (ver "O Povo Temido" em HISTORIA.md).
+Para cada povo/reino, preencher os campos abaixo. A arquitetura (paleta, tileset, sprites) deve derivar do bioma, fauna, flora, tecnologia, clima e sensação desejada; as características físicas e habilidades devem definir a especialização (ver [Especialização Regional](FILOSOFIA.md#especialização-regional) no FILOSOFIA.md). Detalhes de paleta/atmosfera ficam em [ATMOSFERA_REGIOES.md](../ARQUITETURA/ATMOSFERA_REGIOES.md). Cada reino domina apenas uma habilidade extraordinária, tem sua própria tecnologia antiga associada, e pode ou não possuir itens mágicos/mitológicos (ver "Uma Habilidade por Reino" e "Os Artefatos Antigos" em HISTORIA.md). Cada habilidade evolui em nível básico e avançado pela prática (ver "Evolução das Habilidades Extraordinárias" em HISTORIA.md), exceto o Conhecimento de Aurenor, que segue seu próprio arco. Para os outros 9 reinos, definir também a reação inicial ao descobrir que os seres humanos existem (ver "O Povo Temido" em HISTORIA.md).
 
 ## Reino dos Homens (Aurenor)
 
 - **Bioma:** Planície, pouca vegetação.
 - **Geografia:** Rio próximo; floresta distante, usada como fonte de madeira.
-- **Iluminação/atmosfera:** Frio, chuvoso, neblina constante (ver [ILUMINACAO_HISTORIA.md](../ARQUITETURA/ILUMINACAO_HISTORIA.md)).
-- **Sensação a transmitir no ambiente:** paleta baixa em contraste (cinzas, verdes e marrons desbotados pela umidade); melancolia acolhedora — lugar duro de se viver, mas não opressivo. Reforça o "mundo comum" do Pilar 3, criando contraste forte com ruínas e artefatos antigos descobertos mais adiante.
-- **Fauna e flora:** capim resistente ao frio, urze, juncos e taboas na margem do rio, líquens e musgo (umidade constante), sebes dividindo campos de cultivo; floresta distante mista de carvalho, bétula e pinheiro. Ovelhas e cabras na planície, gansos e patos no rio, lebres, raposas, corvos, truta no rio, lobos perto da floresta distante como ameaça ocasional.
+- **Paleta/atmosfera:** tons frios e dessaturados (cinzas, verdes e marrons desbotados), névoa constante no mapa (ver [ATMOSFERA_REGIOES.md](../ARQUITETURA/ATMOSFERA_REGIOES.md)).
+- **Sensação a transmitir no ambiente:** melancolia acolhedora — lugar duro de se viver, mas não opressivo. Reforça o "mundo comum" do Pilar 3, criando contraste com ruínas e artefatos antigos descobertos mais adiante.
+- **Fauna e flora:** capim resistente ao frio, urze, juncos e taboas na margem do rio, líquens e musgo, sebes dividindo campos de cultivo; floresta distante mista de carvalho, bétula e pinheiro. Ovelhas e cabras na planície, gansos e patos no rio, lebres, raposas, corvos, truta no rio, lobos perto da floresta distante como ameaça ocasional.
 - **Minérios:** modestos, sem nada exótico — ferro (forjas e pólvora), argila e calcário (construção), turfa de pântano (combustível). Minérios raros ficam reservados a outros reinos (Especialização Regional).
-- **Arquitetura:** madeira e pedra, telhados inclinados (colmo ou madeira) para escoar a chuva, janelas pequenas, lareiras centrais, madeira envelhecida e pedra tomada por musgo. Casas agrupadas de forma compacta em torno da igreja central. Ruas de terra batida ou pedra, quase sempre enlameadas. Referência: aldeia medieval do norte da Europa.
+- **Arquitetura/tileset:** madeira e pedra, telhados inclinados, janelas pequenas, lareiras centrais. Casas agrupadas de forma compacta em torno da igreja central. Ruas de terra batida ou pedra. Referência visual: aldeia medieval do norte da Europa em pixel art (tileset de ~16x16 ou 32x32, a definir em [ESTILO_VISUAL.md](../ARQUITETURA/ESTILO_VISUAL.md)).
 - **Características físicas do povo:** humano padrão, sem traço físico especial.
 - **Habilidades/afinidades naturais:** adaptabilidade forte; percentual levemente melhor que os outros povos para aprender novas habilidades e conhecimentos.
 - **Maiores especializações (profissões de destaque):** nenhuma profissão específica de destaque — bom em tudo, especialista em nada inicialmente; o conhecimento é o maior destaque do povo.
@@ -25,6 +25,8 @@ Para cada povo/reino, preencher os campos abaixo. A arquitetura deve derivar do 
 
 **Governo:** Rei (atualmente Bjorn) + Conselho dos Sábios. O atual "sábio mestre" do conselho é um homem comum, o mais velho da cidade — o verdadeiro sábio do reino desapareceu há 2000 anos sem deixar sucessor, e para o povo isso é só mitologia. Conforme outros reinos forem descobertos, haverá futuramente um conselho entre os reis desses reinos.
 
+**Mapa:** cena própria (`aurenor.tscn` ou equivalente) — ver [ARQUITETURA/README.md](../ARQUITETURA/README.md) para como cada reino vira uma cena.
+
 **Pendente:** as habilidades especiais (quais são e como serão descobertas na linha temporal do jogo) e como os reinos vão interagir entre si ainda serão definidos — o restante do que não está listado aqui ficará registrado no livro da língua dos sábios, a ser revelado no jogo.
 
 ---
@@ -33,11 +35,11 @@ Para cada povo/reino, preencher os campos abaixo. A arquitetura deve derivar do 
 
 - **Bioma:**
 - **Geografia:**
-- **Iluminação/atmosfera:**
+- **Paleta/atmosfera:**
 - **Sensação a transmitir no ambiente:**
 - **Fauna e flora:**
 - **Minérios:**
-- **Arquitetura:**
+- **Arquitetura/tileset:**
 - **Características físicas do povo:**
 - **Habilidades/afinidades naturais:**
 - **Maiores especializações (profissões de destaque):**
@@ -50,5 +52,6 @@ Para cada povo/reino, preencher os campos abaixo. A arquitetura deve derivar do 
 - **Reação ao descobrir os seres humanos:** (ver "Como Cada Reino Recebe os Humanos" em HISTORIA.md)
 - **Tecnologia antiga associada:**
 - **Itens mágicos/mitológicos:**
+- **Mapa:** cena própria — ver [ARQUITETURA/README.md](../ARQUITETURA/README.md)
 
 ---

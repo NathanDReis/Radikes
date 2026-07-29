@@ -1,10 +1,10 @@
 # Identidade Visual: Pixel Art Top-Down
 
-Substitui o Pilar 4 (Gráficos Realistas) do projeto original. Contexto de jogabilidade em [PILARES/README.md](../PILARES/README.md) — Pilar 4 da versão Simples.
+Contexto de jogabilidade em [PILARES/README.md](../PILARES/README.md), Pilar 4.
 
 ## Objetivo
 
-Consistência de estilo em vez de fidelidade visual. O jogador deve reconhecer um reino pela paleta e pelo tileset, do mesmo jeito que "A Paisagem Conta a História" no original.
+Consistência de estilo em vez de fidelidade visual. O jogador deve reconhecer um reino pela paleta e pelo tileset — reforça "A Paisagem Conta a História" (ver [HISTORIA.md](../PILARES/HISTORIA.md)).
 
 ## Parâmetros técnicos (ponto de partida, ajustável)
 
@@ -14,13 +14,13 @@ Consistência de estilo em vez de fidelidade visual. O jogador deve reconhecer u
 
 ## Paleta por reino
 
-Cada reino tem uma paleta reduzida e consistente (ex.: 16–32 cores), derivada do bioma e da atmosfera descritos em POVOS.md. Isso é o equivalente em pixel art do Post Process Volume por região do projeto original — ver [ATMOSFERA_REGIOES.md](ATMOSFERA_REGIOES.md).
+Cada reino tem uma paleta reduzida e consistente (ex.: 16–32 cores), derivada do bioma e da atmosfera descritos em POVOS.md — ver [ATMOSFERA_REGIOES.md](ATMOSFERA_REGIOES.md).
 
 ## Quebra de Estilo Visual por Reino
 
-Adaptação de [ESTILO_VISUAL.md original](../../ARQUITETURA/ESTILO_VISUAL.md) e de "Um Reino Visualmente Diferente" em [HISTORIA.md](../PILARES/HISTORIA.md).
+Ver "Um Reino Visualmente Diferente" em [HISTORIA.md](../PILARES/HISTORIA.md).
 
-Um reino específico pode romper com o padrão visual do resto do jogo. Em pixel art, isso não precisa de shader de cel-shading (como seria em 3D) — algumas opções bem mais simples de implementar:
+Um reino específico pode romper com o padrão visual do resto do jogo. Algumas opções simples de implementar em pixel art:
 
 - **Troca de paleta radical** — de colorida para quase monocromática (ou vice-versa) ao entrar na cena, via shader de paleta (`CanvasLayer` com um `ColorRect` + shader, ou remapeamento de paleta por LUT).
 - **Mudança de resolução efetiva do pixel** — tiles/sprites muito mais grosseiros (pixelização mais forte) só naquele reino, dando a sensação de "mundo mais antigo/primitivo" ou "irreal".
@@ -28,4 +28,4 @@ Um reino específico pode romper com o padrão visual do resto do jogo. Em pixel
 
 ## Nível de dificuldade
 
-Bem mais simples que o equivalente em UE5 (que exigia shader de cel-shading e contorno customizado). Um shader de paleta em Godot é um exercício razoável mesmo pra quem está começando com shaders — não precisa ser tratado como marco distante, mas ainda vale deixar pra depois de ter o loop principal do jogo funcionando.
+Um shader de paleta em Godot é um exercício razoável mesmo pra quem está começando com shaders — não precisa ser tratado como marco distante, mas ainda vale deixar pra depois de ter o loop principal do jogo funcionando.

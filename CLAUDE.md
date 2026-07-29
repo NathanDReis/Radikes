@@ -1,6 +1,6 @@
 # Instruções do Projeto
 
-Este projeto documenta o design do jogo **Rádikes** (pilares, arquitetura, história, povos) nas pastas [PILARES/](PILARES/) e [ARQUITETURA/](ARQUITETURA/).
+Este projeto documenta o design do jogo **Rádikes** (pilares, arquitetura, história, povos) na pasta [docs/](docs/), em [docs/PILARES/](docs/PILARES/) e [docs/ARQUITETURA/](docs/ARQUITETURA/).
 
 ## Coerência com o que já está documentado
 

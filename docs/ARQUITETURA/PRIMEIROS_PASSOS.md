@@ -1,6 +1,6 @@
 # Primeiros Passos (Checklist) — Godot
 
-Adaptação de [PRIMEIROS_PASSOS.md](../../ARQUITETURA/PRIMEIROS_PASSOS.md) original para Godot/pixel art. Mesma regra geral: **jogável com asset genérico antes de arte final.**
+Regra geral: **jogável com asset genérico antes de arte final.**
 
 ## 1. Personagem jogável primeiro, com asset genérico
 
@@ -16,7 +16,7 @@ Um shader simples de vertex offset (seno + tempo) no material do sprite da grama
 
 ## 4. Vegetação reagindo ao personagem (opcional, mais avançado — só depois do item 3)
 
-Alternativa simples ao render-target da versão 3D: um `Area2D` ao redor da vegetação detecta a entrada do personagem e dispara uma animação de "afastar" (squash/tilt) nos sprites próximos. Bem mais barato que a técnica de textura de posição usada em 3D.
+Um `Area2D` ao redor da vegetação detecta a entrada do personagem e dispara uma animação de "afastar" (squash/tilt) nos sprites próximos.
 
 ## 5. Só depois disso, personalizar a arte
 

@@ -10,7 +10,9 @@
       "Read(//home/reis/.ssh/**)",
       "Read(//etc/**)",
       "Read(//home/reis/**)",
-      "Read(//home/reis/.config/git/**)"
+      "Read(//home/reis/.config/git/**)",
+      "Bash(git mv *)",
+      "Bash(mv simples *)"
     ]
   }
 }

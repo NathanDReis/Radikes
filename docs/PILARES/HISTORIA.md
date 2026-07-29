@@ -22,7 +22,7 @@ Entretanto, para aqueles que exploram além do conhecido, o mundo revela lentame
 
 O primeiro reino, onde o jogador inicia sua jornada, é o reino comum dos homens.
 
-Seu período é medieval — sem eletricidade, veículos ou tecnologia moderna dentro da ficção. O realismo gráfico da Unreal Engine 5 (Pilar 4) é o que dá a sensação de modernidade; a tecnologia do próprio mundo permanece medieval.
+Seu período é medieval — sem eletricidade, veículos ou tecnologia moderna dentro da ficção. A tecnologia do próprio mundo permanece medieval; é a identidade visual em pixel art (ver Pilar 4 em [README.md](README.md) desta pasta) que dá a sensação de um mundo bem definido e consistente.
 
 Para o povo desse reino, todas as histórias sobre outros povos, habilidades extraordinárias e civilizações antigas são apenas lendas — contadas por NPCs e registradas em livros antigos, como mitologia e ficção.
 
@@ -248,6 +248,8 @@ As outras 9 habilidades — cada uma o poder único de um reino — evoluem em d
 * **Nível Básico** — a manifestação inicial, desbloqueada assim que o personagem descobre a própria afinidade e começa a treinar. É o que está descrito para cada uma em "Outras Habilidades Extraordinárias" logo abaixo.
 * **Nível Avançado** — desbloqueado só depois de muita prática. É uma mudança qualitativa, não apenas uma versão mais forte do nível básico — a exemplo do Tempo, que vai de retroceder (básico) a pausar (avançado).
 
+**(Implementação:)** cada nível é uma flag/estado no mesmo Resource de progressão da habilidade (ver FILOSOFIA.md) — sem precisar de um sistema separado do de profissões.
+
 O que exatamente cada nível avançado faz, fora o Tempo (já definido), ainda será decidido reino a reino, conforme cada um for detalhado em POVOS.md.
 
 ## A Primeira Habilidade do Conhecimento: a Língua dos Sábios
@@ -418,6 +420,8 @@ Ao escolher um sucessor e se retirar, o sábio não morre nem desaparece de fato
 
 Esse reino funciona como um mundo livre à parte: lá, quem chega pode aperfeiçoar suas habilidades extraordinárias e criar novas, mais fortes que qualquer uma do mundo comum. É possível permanecer lá para sempre, se desenvolvendo indefinidamente.
 
+**(Implementação:)** o reino-paraíso é mais uma cena própria (pequena, estilizada) do que uma região gigante — o efeito de "lugar à parte, com regras próprias" vem da mudança de paleta/atmosfera, não da escala do mapa.
+
 ### Novas Habilidades Desenvolvidas no Paraíso
 
 Além de aperfeiçoar o que já foi aprendido no mundo comum, quem chega ao reino-paraíso pode desenvolver habilidades inteiramente novas, exclusivas de lá — não são acessíveis a quem nunca chegou até esse lugar:
@@ -430,7 +434,7 @@ Além de aperfeiçoar o que já foi aprendido no mundo comum, quem chega ao rein
 
 Os cidadãos do reino-paraíso podem voar e visitar livremente todos os outros reinos, mas neles permanecem invisíveis e inaudíveis — atuam só como observadores.
 
-A única interferência permitida é sobre o clima local: fazer chover, nevar, parar de nevar onde já é frio e nevado, causar tempestades, ventanias, entre outras variações. Essa interferência precisa respeitar o clima possível de cada região — eles só podem escolher entre as opções de clima já compatíveis com aquele bioma/atmosfera (ver "Iluminação e Atmosfera por Região" em ARQUITETURA/), nunca impor um clima estranho ao local (nevar num deserto quente, por exemplo).
+A única interferência permitida é sobre o clima local: fazer chover, nevar, parar de nevar onde já é frio e nevado, causar tempestades, ventanias, entre outras variações. Essa interferência precisa respeitar o clima possível de cada região — eles só podem escolher entre as opções de clima já compatíveis com aquele bioma/atmosfera (ver "Atmosfera por Região" em ARQUITETURA/), nunca impor um clima estranho ao local (nevar num deserto quente, por exemplo).
 
 O mestre é o grau de evolução mais alto do jogo — mais alto que qualquer outro caminho que o jogador possa escolher (profissões, habilidades extraordinárias comuns, ou mesmo permanecer sábio sem nunca voltar do paraíso). Para equilibrar isso, voltar não pode depender só da fase guiada: também é necessário coletar ou produzir um elixir raro (algo em torno de 100 ml) para beber antes de atravessar de volta. A raridade do elixir, ou o tempo necessário para produzi-lo, é o que torna essa volta difícil de fato, além da fase guiada em si.
 
@@ -461,6 +465,8 @@ A geografia é uma das principais formas de narrativa do jogo.
 Cada região deve transmitir sua identidade antes mesmo de apresentar seus habitantes.
 
 A paisagem revela como aquele povo viveu, quais recursos utilizava e como sua cultura evoluiu.
+
+**(Implementação:)** em pixel art top-down, isso se traduz em paleta de cor, tileset e silhueta do cenário — cada mapa/reino tem sua própria paleta e conjunto de tiles, reconhecíveis à distância mesmo sem ler texto nenhum.
 
 Exemplos:
 
@@ -497,7 +503,7 @@ O mundo recompensa constantemente aqueles que decidem ir além do caminho conhec
 
 ## Um Reino Visualmente Diferente
 
-Como exceção pontual — não a regra do Pilar 4 (Gráficos Realistas), que continua valendo para o resto do mundo — um reino específico pode romper totalmente com o realismo: personagens e ambiente mudam de estilo (ex.: visual cartoon/cel-shaded), de forma parecida com a mudança de universo em Homem-Aranha: Através do Aracnoverso.
+Como exceção pontual — não a regra da identidade visual em pixel art, que continua valendo para o resto do mundo — um reino específico pode romper totalmente com o estilo padrão: paleta de cor, resolução efetiva do pixel art e até proporção dos sprites mudam drasticamente ao entrar naquele reino (por exemplo, de colorido para quase monocromático, ou de sprites nítidos para uma pixelização muito mais grossa/antiga), de forma parecida com a mudança de universo em Homem-Aranha: Através do Aracnoverso.
 
 Essa quebra deve ser tratada como um fenômeno que desafia o conhecimento comum, e precisa de uma justificativa narrativa própria (ligada à habilidade extraordinária ou tecnologia antiga daquele reino) — ainda a definir, junto com qual reino será esse.
 
@@ -526,7 +532,7 @@ Itens ainda em aberto, a definir mais adiante:
 * As 10 habilidades extraordinárias já estão nomeadas: Conhecimento (Aurenor), telecinese, velocidade, força, visão, tempo, sentidos aguçados (mineração/subterrâneo), domínio da terra (agricultura), domínio da água (comércio marítimo) e domínio do fogo (metalurgia). Falta nomear e detalhar em POVOS.md os 9 reinos ainda não criados, além de definir a ordem de descoberta de cada um.
 * A qual reino pertence cada tecnologia/item ainda não atribuído: teletransporte, mecanismos de força/visão/velocidade, controle de objetos à distância, luva da invisibilidade, capa anti-fome/frio e anel de regeneração.
 * Como os reinos irão interagir entre si.
-* Qual reino terá a quebra visual total (estilo cartoon/cel-shaded) e a justificativa narrativa para isso — ver "Um Reino Visualmente Diferente".
+* Qual reino terá a quebra visual total e a justificativa narrativa para isso — ver "Um Reino Visualmente Diferente".
 * Qual reino ensina o caminho do conhecimento ao personagem (ver "A Primeira Habilidade do Conhecimento: a Língua dos Sábios").
 
 ---
