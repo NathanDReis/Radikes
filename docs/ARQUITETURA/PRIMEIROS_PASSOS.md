@@ -20,7 +20,7 @@ Um `Area2D` ao redor da vegetação detecta a entrada do personagem e dispara um
 
 ## 5. Só depois disso, personalizar a arte
 
-Com o personagem-placeholder andando e o tilemap funcionando, substituir por sprites e tileset finais — mesma resolução de tile definida em [ESTILO_VISUAL.md](ESTILO_VISUAL.md).
+Com o personagem-placeholder andando e o tilemap funcionando, substituir por sprites e tileset finais — mesma resolução de tile definida em [ESTILO_VISUAL.md](ESTILO_VISUAL.md). O sprite de mundo (o que anda no mapa) vem primeiro; o retrato de diálogo detalhado de cada personagem (ver "Dois Níveis de Arte" em [ESTILO_VISUAL.md](ESTILO_VISUAL.md)) só é necessário quando aquele personagem ganhar uma cena de diálogo — não precisa estar pronto pra ter o mapa jogável.
 
 ## 6. Animação customizada só quando precisar de algo único
 
