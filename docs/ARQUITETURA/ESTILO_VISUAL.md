@@ -6,6 +6,10 @@ Contexto de jogabilidade em [PILARES/README.md](../PILARES/README.md), Pilar 4.
 
 Consistência de estilo em vez de fidelidade visual. O jogador deve reconhecer um reino pela paleta e pelo tileset — reforça "A Paisagem Conta a História" (ver [HISTORIA.md](../PILARES/HISTORIA.md)).
 
+## Ferramenta
+
+**LibreSprite** — editor de pixel art e animação, 100% gratuito, escolhido para manter o projeto sem nenhum custo (ver Fase 0 em [ROADMAP.md](../ROADMAP.md)).
+
 ## Dois Níveis de Arte: Retrato vs. Sprite de Mundo
 
 Detalhe rico custa caro quando precisa se repetir em várias direções e quadros de animação — por isso a arte do jogo se divide em dois níveis, cada um com sua própria régua de qualidade:
