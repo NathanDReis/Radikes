@@ -12,7 +12,13 @@
       "Read(//home/reis/**)",
       "Read(//home/reis/.config/git/**)",
       "Bash(git mv *)",
-      "Bash(mv simples *)"
+      "Bash(mv simples *)",
+      "Bash(which godot *)",
+      "Read(//home/reis/Documentos/github/**)",
+      "Bash(mkdir -p \"/home/reis/Documentos/github/Rádikes/game/scenes\" \"/home/reis/Documentos/github/Rádikes/game/scripts\" \"/home/reis/Documentos/github/Rádikes/game/shaders\")"
+    ],
+    "additionalDirectories": [
+      "/home/reis/Documentos/github/Rádikes/game"
     ]
   }
 }
