@@ -15,7 +15,8 @@
       "Bash(mv simples *)",
       "Bash(which godot *)",
       "Read(//home/reis/Documentos/github/**)",
-      "Bash(mkdir -p \"/home/reis/Documentos/github/Rádikes/game/scenes\" \"/home/reis/Documentos/github/Rádikes/game/scripts\" \"/home/reis/Documentos/github/Rádikes/game/shaders\")"
+      "Bash(mkdir -p \"/home/reis/Documentos/github/Rádikes/game/scenes\" \"/home/reis/Documentos/github/Rádikes/game/scripts\" \"/home/reis/Documentos/github/Rádikes/game/shaders\")",
+      "Bash(git status *)"
     ],
     "additionalDirectories": [
       "/home/reis/Documentos/github/Rádikes/game"
