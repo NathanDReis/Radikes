@@ -1,10 +1,12 @@
-[gd_scene load_steps=10 format=4 uid="uid://386iceyoj6mv"]
+[gd_scene load_steps=12 format=4 uid="uid://386iceyoj6mv"]
 
 [ext_resource type="PackedScene" uid="uid://sbroq6ql2whg" path="res://Terrain/terrain_manager.tscn" id="1_crrlf"]
 [ext_resource type="PackedScene" uid="uid://bt0tqnnvuwr5" path="res://Factions/Knights/Troops/Pawn/pawn.tscn" id="2_pali4"]
 [ext_resource type="Texture2D" uid="uid://bnfa75mue81xc" path="res://Terrain/Bridge/Bridge_All.png" id="3_3r3pu"]
 [ext_resource type="Script" path="res://Interactables/bridge_area.gd" id="3_jiy5d"]
+[ext_resource type="PackedScene" uid="uid://bdghy8cd7qkno" path="res://Decoration/Mushroom/mushroom.tscn" id="5_4c4qs"]
 [ext_resource type="Script" path="res://Interactables/ladder_area.gd" id="5_knb6v"]
+[ext_resource type="PackedScene" uid="uid://dr1bex4cfr2da" path="res://Decoration/Rocks/rocks_component.tscn" id="6_4jrrm"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_um57q"]
 texture = ExtResource("3_3r3pu")
@@ -49,31 +51,42 @@ script = ExtResource("3_jiy5d")
 position = Vector2(1572, 2.5)
 shape = SubResource("RectangleShape2D_kn4l0")
 
-[node name="Pawn" parent="." node_paths=PackedStringArray("_bridge") instance=ExtResource("2_pali4")]
-position = Vector2(857, -72)
-_bridge = NodePath("../Bridge")
+[node name="Decorations" type="Node2D" parent="."]
+y_sort_enabled = true
 
-[node name="LadderArea" type="Area2D" parent="."]
+[node name="Pawn" parent="Decorations" node_paths=PackedStringArray("_bridge") instance=ExtResource("2_pali4")]
+position = Vector2(857, -72)
+_bridge = NodePath("../../Bridge")
+
+[node name="Mushroom" parent="Decorations" instance=ExtResource("5_4c4qs")]
+position = Vector2(960, -512)
+
+[node name="Rocks" parent="Decorations" instance=ExtResource("6_4jrrm")]
+position = Vector2(704, -128)
+
+[node name="Ladders" type="Node2D" parent="."]
+
+[node name="LadderArea" type="Area2D" parent="Ladders"]
 position = Vector2(928, -159)
 collision_layer = 8
 collision_mask = 8
 script = ExtResource("5_knb6v")
 
-[node name="Collision" type="CollisionShape2D" parent="LadderArea"]
+[node name="Collision" type="CollisionShape2D" parent="Ladders/LadderArea"]
 position = Vector2(1, -1)
 shape = SubResource("RectangleShape2D_odgvl")
 
-[node name="LadderArea2" type="Area2D" parent="."]
+[node name="LadderArea2" type="Area2D" parent="Ladders"]
 position = Vector2(6307, 420)
 collision_layer = 8
 collision_mask = 8
 script = ExtResource("5_knb6v")
 
-[node name="Collision" type="CollisionShape2D" parent="LadderArea2"]
+[node name="Collision" type="CollisionShape2D" parent="Ladders/LadderArea2"]
 position = Vector2(1, -1)
 shape = SubResource("RectangleShape2D_odgvl")
 
 [connection signal="body_entered" from="Bridge/BridgeArea" to="Bridge/BridgeArea" method="_on_body_entered"]
 [connection signal="body_exited" from="Bridge/BridgeArea" to="Bridge/BridgeArea" method="_on_body_exited"]
-[connection signal="body_exited" from="LadderArea" to="LadderArea" method="_on_body_exited"]
-[connection signal="body_exited" from="LadderArea2" to="LadderArea2" method="_on_body_exited"]
+[connection signal="body_exited" from="Ladders/LadderArea" to="Ladders/LadderArea" method="_on_body_exited"]
+[connection signal="body_exited" from="Ladders/LadderArea2" to="Ladders/LadderArea2" method="_on_body_exited"]
