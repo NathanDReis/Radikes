@@ -16,7 +16,9 @@
       "Bash(which godot *)",
       "Read(//home/reis/Documentos/github/**)",
       "Bash(mkdir -p \"/home/reis/Documentos/github/Rádikes/game/scenes\" \"/home/reis/Documentos/github/Rádikes/game/scripts\" \"/home/reis/Documentos/github/Rádikes/game/shaders\")",
-      "Bash(git status *)"
+      "Bash(git status *)",
+      "Bash(awk '{ print length, NR }' \"/home/reis/Documentos/github/Rádikes/game/radikes/Terrain/terrain_manager.tscn\")",
+      "Bash(awk 'length\\($0\\) < 200' \"/home/reis/Documentos/github/Rádikes/game/radikes/Terrain/terrain_manager.tscn\")"
     ],
     "additionalDirectories": [
       "/home/reis/Documentos/github/Rádikes/game"

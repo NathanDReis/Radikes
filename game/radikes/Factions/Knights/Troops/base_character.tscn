@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://j5jks3vkg2ei"]
+
+[ext_resource type="Script" path="res://Factions/Knights/Troops/base_character.gd" id="1_1rt4u"]
+
+[node name="BaseCharacter" type="CharacterBody2D" node_paths=PackedStringArray("_sprite2D", "_animation")]
+script = ExtResource("1_1rt4u")
+_sprite2D = NodePath("Texture")
+_animation = NodePath("Animation")
+
+[node name="Texture" type="Sprite2D" parent="."]
+
+[node name="Collision" type="CollisionShape2D" parent="."]
+
+[node name="Animation" type="AnimationPlayer" parent="."]
