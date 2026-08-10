@@ -1,12 +1,22 @@
-[gd_scene load_steps=3 format=3 uid="uid://bdghy8cd7qkno"]
+[gd_scene load_steps=4 format=3 uid="uid://bdghy8cd7qkno"]
 
 [ext_resource type="PackedScene" uid="uid://ba0biilib5q0k" path="res://Decoration/decoration_component.tscn" id="1_u4x1x"]
+[ext_resource type="Texture2D" uid="uid://cisv3l3etfh8c" path="res://Decoration/Mushroom/03.png" id="2_juyyq"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_b0see"]
-radius = 29.0
+radius = 28.0
 
 [node name="Mushroom" instance=ExtResource("1_u4x1x")]
 _textures_list = Array[String](["res://Decoration/Mushroom/01.png", "res://Decoration/Mushroom/02.png", "res://Decoration/Mushroom/03.png"])
+
+[node name="Texture1" parent="." index="0"]
+texture = ExtResource("2_juyyq")
+
+[node name="Texture2" parent="." index="1"]
+texture = ExtResource("2_juyyq")
+
+[node name="Texture3" parent="." index="2"]
+texture = ExtResource("2_juyyq")
 
 [node name="Collision" parent="PhysicsColision" index="0"]
 shape = SubResource("CircleShape2D_b0see")

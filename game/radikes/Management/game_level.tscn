@@ -28,7 +28,7 @@ physics_layer_0/collision_mask = 2
 sources/1 = SubResource("TileSetAtlasSource_um57q")
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_kn4l0"]
-size = Vector2(3226, 41)
+size = Vector2(1901, 41)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_odgvl"]
 size = Vector2(59.75, 64)
@@ -38,7 +38,7 @@ size = Vector2(59.75, 64)
 [node name="TerrainManager" parent="." instance=ExtResource("1_crrlf")]
 
 [node name="Bridge" type="TileMapLayer" parent="."]
-tile_map_data = PackedByteArray("AABhAPv/AQACAAAAAABgAPv/AQABAAAAAABfAPv/AQABAAAAAABeAPv/AQABAAAAAABdAPv/AQABAAAAAABcAPv/AQABAAAAAABbAPv/AQABAAAAAABaAPv/AQABAAAAAABZAPv/AQABAAAAAABYAPv/AQABAAAAAABXAPv/AQABAAAAAABWAPv/AQABAAAAAABVAPv/AQABAAAAAABUAPv/AQABAAAAAABTAPv/AQABAAAAAABSAPv/AQABAAAAAABRAPv/AQABAAAAAABQAPv/AQABAAAAAABPAPv/AQABAAAAAABOAPv/AQABAAAAAABNAPv/AQABAAAAAABMAPv/AQABAAAAAABLAPv/AQABAAAAAABKAPv/AQABAAAAAABJAPv/AQABAAAAAABIAPv/AQABAAAAAABHAPv/AQABAAAAAABGAPv/AQABAAAAAABFAPv/AQABAAAAAABEAPv/AQABAAAAAABDAPv/AQABAAAAAABCAPv/AQABAAAAAABBAPv/AQABAAAAAABAAPv/AQABAAAAAAA/APv/AQABAAAAAAA+APv/AQABAAAAAAA9APv/AQABAAAAAAA8APv/AQABAAAAAAA7APv/AQABAAAAAAA6APv/AQABAAAAAAA5APv/AQABAAAAAAA4APv/AQABAAAAAAA3APv/AQABAAAAAAA2APv/AQABAAAAAAA1APv/AQABAAAAAAA0APv/AQABAAAAAAAzAPv/AQABAAAAAAAyAPv/AQABAAAAAAAxAPv/AQABAAAAAAAwAPv/AQABAAAAAAAvAPv/AQAAAAAAAAA=")
+tile_map_data = PackedByteArray("AABMAPv/AQABAAAAAABLAPv/AQABAAAAAABKAPv/AQABAAAAAABJAPv/AQABAAAAAABIAPv/AQABAAAAAABHAPv/AQABAAAAAABGAPv/AQABAAAAAABFAPv/AQABAAAAAABEAPv/AQABAAAAAABDAPv/AQABAAAAAABCAPv/AQABAAAAAABBAPv/AQABAAAAAABAAPv/AQABAAAAAAA/APv/AQABAAAAAAA+APv/AQABAAAAAAA9APv/AQABAAAAAAA8APv/AQABAAAAAAA7APv/AQABAAAAAAA6APv/AQABAAAAAAA5APv/AQABAAAAAAA4APv/AQABAAAAAAA3APv/AQABAAAAAAA2APv/AQABAAAAAAA1APv/AQABAAAAAAA0APv/AQABAAAAAAAzAPv/AQABAAAAAAAyAPv/AQABAAAAAAAxAPv/AQABAAAAAAAwAPv/AQABAAAAAAAvAPv/AQAAAAAAAABNAPv/AQACAAAAAAA=")
 tile_set = SubResource("TileSet_o7gr7")
 
 [node name="BridgeArea" type="Area2D" parent="Bridge"]
@@ -48,7 +48,7 @@ collision_mask = 8
 script = ExtResource("3_jiy5d")
 
 [node name="Collision" type="CollisionShape2D" parent="Bridge/BridgeArea"]
-position = Vector2(1572, 2.5)
+position = Vector2(932.5, 2.5)
 shape = SubResource("RectangleShape2D_kn4l0")
 
 [node name="Decorations" type="Node2D" parent="."]
@@ -61,8 +61,53 @@ _bridge = NodePath("../../Bridge")
 [node name="Mushroom" parent="Decorations" instance=ExtResource("5_4c4qs")]
 position = Vector2(960, -512)
 
+[node name="Mushroom2" parent="Decorations" instance=ExtResource("5_4c4qs")]
+position = Vector2(1010, -202)
+
+[node name="Mushroom3" parent="Decorations" instance=ExtResource("5_4c4qs")]
+position = Vector2(658, -388)
+
+[node name="Mushroom6" parent="Decorations" instance=ExtResource("5_4c4qs")]
+position = Vector2(1330, -286)
+
+[node name="Mushroom7" parent="Decorations" instance=ExtResource("5_4c4qs")]
+position = Vector2(2825, -622)
+
+[node name="Mushroom8" parent="Decorations" instance=ExtResource("5_4c4qs")]
+position = Vector2(2795, -1098)
+
+[node name="Mushroom4" parent="Decorations" instance=ExtResource("5_4c4qs")]
+position = Vector2(674, -766)
+
+[node name="Mushroom5" parent="Decorations" instance=ExtResource("5_4c4qs")]
+position = Vector2(667, -597)
+
 [node name="Rocks" parent="Decorations" instance=ExtResource("6_4jrrm")]
 position = Vector2(704, -128)
+
+[node name="Rocks2" parent="Decorations" instance=ExtResource("6_4jrrm")]
+position = Vector2(263, -185)
+
+[node name="Rocks3" parent="Decorations" instance=ExtResource("6_4jrrm")]
+position = Vector2(486, 242)
+
+[node name="Rocks4" parent="Decorations" instance=ExtResource("6_4jrrm")]
+position = Vector2(1660, 401)
+
+[node name="Rocks5" parent="Decorations" instance=ExtResource("6_4jrrm")]
+position = Vector2(2449, 212)
+
+[node name="Rocks9" parent="Decorations" instance=ExtResource("6_4jrrm")]
+position = Vector2(3325, -1200)
+
+[node name="Rocks6" parent="Decorations" instance=ExtResource("6_4jrrm")]
+position = Vector2(1868, -132)
+
+[node name="Rocks7" parent="Decorations" instance=ExtResource("6_4jrrm")]
+position = Vector2(2974, -219)
+
+[node name="Rocks8" parent="Decorations" instance=ExtResource("6_4jrrm")]
+position = Vector2(1664, -672)
 
 [node name="Ladders" type="Node2D" parent="."]
 
